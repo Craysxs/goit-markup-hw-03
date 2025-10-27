@@ -1,0 +1,151 @@
+:root {
+  --main-color: #2e2f42;
+  --hover: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container{
+  width: 1158px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+h1 {
+  padding-top: 188px;
+  margin: 0px auto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.logo {
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo-2 {
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo-3 {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: var(--hover);
+}
+
+.active {
+  text-decoration: underline;
+  color: var(--hover);
+}
+
+button {
+  width: 169px;
+  height: 56px;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #404bbf;
+}
+
+.section-1 {
+  text-align: center;
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.section-2{
+  width: 1440px;
+}
+
+.section-2 ul{
+display: flex;
+justify-content: center;
+gap: 8px;
+list-style-type: none;
+}
+
+.section-3 {
+  background-color: #f4f4fd;
+  width: 1440px;
+}
+
+.section-3 h2{
+  text-align: center;
+}
+
+.section-3 ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 32px;
+}
+
+.section-4{
+  width: 1440px;
+}
+
+.section-4 h2{
+  text-align: center;
+}
+
+.section-4 ul{
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+}
+
+.footer-p{
+  color: #f4f4fd;
+  width: 264px;
+}
