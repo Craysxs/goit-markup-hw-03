@@ -9,18 +9,39 @@ body {
   line-height: 1.5;
 }
 
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
 .container{
-  width: 1158px;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 header{
+  box-sizing: border-box;
+  padding-top: 36px;
+  padding-bottom: 36px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 1440px;
+  gap: 24px;
+}
+
+.nav-1{
+  margin-right: 332px;
+}
+
+.nav-1 a{
+  margin-right: 40px;
+}
+
+.nav-2 a{
+  margin-right: 40px;
 }
 
 h1 {
-  padding-top: 188px;
   margin: 0px auto;
   font-weight: 700;
   font-size: 56px;
@@ -75,19 +96,29 @@ h3 {
 }
 
 button {
+  margin-top: 48px;
   width: 169px;
   height: 56px;
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 button:hover {
   background-color: #404bbf;
 }
 
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
@@ -101,7 +132,7 @@ button:hover {
 .section-2 ul{
 display: flex;
 justify-content: center;
-gap: 8px;
+gap: 24px;
 list-style-type: none;
 }
 
@@ -112,13 +143,14 @@ list-style-type: none;
 
 .section-3 h2{
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .section-3 ul{
   display: flex;
   list-style-type: none;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
 }
 
 .section-4{
@@ -127,6 +159,7 @@ list-style-type: none;
 
 .section-4 h2{
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .section-4 ul{
