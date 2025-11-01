@@ -40,11 +40,11 @@ header {
 .nav-1 {}
 
 .nav-1 a {
-  margin-right: 40px;
+  gap: 40px;
 }
 
-.nav-2 a {
-  margin-right: 40px;
+.nav-2{
+  gap: 40px;
 }
 
 h1 {
